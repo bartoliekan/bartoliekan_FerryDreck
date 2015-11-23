@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* BASIC */
+
+* {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+/* CONTAINER */
+
+#container {
+	width: 100%;
+}
+
+/* HEADER */
+
+#header {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#head1 {
+	height: 50px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.head1_kop {
+	float: left;
+	margin: 25px 20px 20px 25px;
+	font-size: 24px;
+}
+
+#kop {
+	width: 200px;
+	height: 70px;
+	position: absolute;
+	background-color: white;
+}
+
+#socialmedia {
+	float: right;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.banner_img {
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+#call {
+	width: 200px;
+	height: 70px;
+	margin-left: 590px;
+	margin-top: -235px;
+	position: absolute;
+	background-color: #f6e038;
+	color: white;
+	z-index: 1;
+}
+
+.call_float {
+	float: right;
+	margin-top: 20px;
+	margin-right: 30px;
+	font-size: 26px;
+}
+
+.fa-phone-square {
+	margin-left: 40px;
+	margin-top: 25px;
+}
+
+#head_info {
+	width: 200px;
+	height: 163px;
+	margin-left: 590px;
+	margin-top: -165px;
+	position: absolute;
+	background-color: white;
+	color: white;
+	z-index: 1;
+}
+
+#head_quote {
+	width: 1000px;
+	height: 96px;
+	margin-top: -165px;
+	position: absolute;
+	color: white;
+	z-index: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+header {
+	color: blue;
+	padding: 20px;
+}
+
+article {
+	color: #b0b0b0;
+	padding: 20px;
+	text-align: justify;
+	margin-top: -20px !important;
+}
+
+#h2_quote {
+	margin-left: 15%;
+	padding-top: 27px;
+	font-size: 28px;
+}
+
+#navigation {
+	width: 1000px;
+	height: 67px;
+	margin-top: -69px;
+	position: absolute;
+	color: white;
+	z-index: 0;
+    background: -webkit-linear-gradient(left,rgba(255,0,0,0),rgba(255,0,0,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,rgba(255,0,0,0),rgba(255,0,0,1)); /*Fx 3.6-15*/
+    background: linear-gradient(to right, rgba(255,255,102,0.5), rgba(255,255,102,0.1)); /*Standard*/
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+nav {
+    margin-left: 15%;
+    margin-top: 23px;
+}
+/* CONTENT */
+
+#content {
+    width: 1000px;
+	margin: 0 auto;
+    margin-top: -3px;
+    background-color: #e8e8e8;
+    height: 350px;
+    padding-top: 1px;
+}
+
+.title_content {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 68px solid #e8e8e8;
+	border-bottom: 50px solid transparent;
+    z-index: 3;
+    margin-top: -173px;
+    margin-left: 242px;
+    position: absolute;
+}
+
+#thumb_margin {
+    float: right;
+    width: 33.33%;
+    display: block;
+    text-align: center;
+}
+
+.img_class {
+    z-index: -1;   
+}
+
+/* FOOTER */
+
+#footer {
+    width: 1000px;
+	margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title_footer {
+    font-size: 26px;
+    margin-left: 15%;
+    margin-bottom: 40px;
+}
+
+.date_number {
+    font-size: 32px;   
+}
+
+.date_tekst {
+    margin-left: 15%;
+    color: cornflowerblue;
+}
+
+#vertical_line {
+    width: 3px;
+    height: 220px;
+    background-color: cornflowerblue;
+    margin-top: -51px;
+    margin-left: 250px;
+}
+
+#footer_tekst {
+    float: left;
+    width: 250px;
+    height: 220px;
+    margin-top: -200px;
+    margin-left: 270px;
+}
+
+#footer_gradient {
+    margin-left: 540px;
+    margin-top: -220px;
+    width: 461px;
+	height: 220px;
+	position: absolute;
+	z-index: 0;
+    background: -webkit-linear-gradient(left, cornflowerblue , white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, cornflowerblue , white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, cornflowerblue , white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, cornflowerblue , white); /* Standard syntax (must be last) */
+}
+
+.tekst_color {
+    color: cornflowerblue;   
+}
+
+.footer_quote {
+    margin-left: 40px;
+    margin-top: 85px;
+    width: 302px;
+    font-size: 24px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
